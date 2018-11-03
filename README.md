@@ -1,5 +1,4 @@
-# nimdbf
-# forked from invanflorentin/nimdbf
+# nimdbf (forked from invanflorentin/nimdbf)
 
 ## DBF reader written in Nim
 
