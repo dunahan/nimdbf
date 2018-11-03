@@ -27,7 +27,7 @@ proc getFieldHeader*(data: string): FieldHeader =
   new(result)
   result.name = ""
   for c in data[0..10]:
-    if c !=  char(0):
+    if c != char(0):
       result.name = result.name & c
   result.field_type = data[11]
   result.length = (data[16].int16) + (data[17].int16 * 256) 
