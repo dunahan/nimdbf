@@ -1,3 +1,16 @@
+import docopt; let ARGS = docopt """
+readdbf
+
+This utility reads the specified dbf-file and
+creates a SQL command-file for import.
+
+<dbf-file> this is the dbf-file to convert.
+
+Usage:
+  readdbf <dbf-file>
+  
+"""
+
 import
   asyncfile,
   asyncdispatch,
